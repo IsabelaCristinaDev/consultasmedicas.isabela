@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/consultas")
-public class ConsultaController {
+public class ConsultaController  {
 
     @Autowired
     private ConsultaService consultaService;
